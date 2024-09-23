@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Ahmad Faqih Hasani</title>
+        <style>
+            body {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            li a{ 
+                color: white;
+                text-decoration: none;
+            }
+            nav {
+                background-color:rgb(0, 0, 0);
+                width: 100%;
+                position: fixed;
+                top: 0;
+                z-index: 1000;
+            }
+            #profile, #skills, #academics, #projects{
+                padding-top: 70px;
+                margin-top: -50px;
+            }
+            p {
+                text-align: justify;
+            }
+            li section{
+                border-radius: 50px; 
+                border: 1px solid black; 
+                padding: 10px;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <nav style="margin-bottom: 10px;">
+            <ul style="list-style: none; display: flex; justify-content: space-around;">
+                <li>
+                    <a href="#profile">
+                        Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        Skills   
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#academics">
+                        Academic
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section style="display: grid; margin-top: 90px;">
+            <img src="img/1663322983166.jpg" style="max-width: 200px; justify-self: center; border-radius: 50%; border: 2px solid black;">
+        </section>
+        <h1 style="text-align: center; margin-top: 10px; border-bottom: 1px solid black; padding: 10px; font-size: 20px;">Ahmad Faqih Hasani | Computer Science</h1>
+        <h2 style="text-align: center; margin-bottom: 0;" id="profile">Profile</h2>
+        <div style="border-bottom: 1px solid black; padding: 10px;">
+            <p>My name is Ahmad Faqih Hasani. I am a third-year student at the Sumatera Institute of Technology, specializing in videography, video editing, machine learning, and web development. Over the years, I have developed a diverse set of skills, allowing me to work on various impactful projects, including building online shop websites and personal portfolio sites. My passion for technology and creativity fuels my drive to create innovative solutions and deliver high-quality results in everything I do.</p>
+        </div>
+        <h2 style="text-align: center;" id="skills">Skills</h2>
+        <ul style="list-style: none; display: flex; justify-content: space-around; border-bottom: 1px solid black; padding-bottom: 20px;">
+            <li>
+                <section>
+                    Videography
+                </section>
+            </li>
+            <li>
+                <section>
+                    Video Editing 
+                </section>  
+            </li>
+            <li>
+                <section>
+                    Machine learning
+                </section>
+            </li>
+            <li>
+                <section>
+                    Web Development
+                </section>
+            </li>
+        </ul>
+        <h2 style="text-align: center;" id="projects">Projects</h2>
+        <table style="justify-content: center; display: flex; border-bottom: 1px solid black; padding-bottom: 10px;">
+            <tr>
+                <td>
+                    <h3 style="text-align: center;">Kampoeng Balibon Website</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <iframe src="https://kampoengbalibon.com/" style="width: 600px; height: 300px; border-bottom: 1px solid black; border-radius: 10px;"></iframe>
+                </td>
+            </tr>
+        </table>
+        <h2 style="text-align: center;" id="academics">Academics</h2>
+        <table style="width: 100%;">
+            <tr>
+                <td style="text-align: center; width: 25%;">
+                    <h3>SDIT Al-Azhar Syifa Budi Cibinong</h3>
+                </td>
+                <td style="text-align: center; width: 25%;">
+                    <h3>SMP Al-Ma'hadul Islami</h3>
+                </td>
+                <td style="text-align: center; width: 25%;">
+                    <h3>SMAN 9 Kota Bogor</h3>
+                </td>
+                <td style="text-align: center; width: 25%;">
+                    <h3>Institut Teknologi Sumatera</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%; text-align: center;">
+                    <img src="img/img1.png"style="max-width: 100%; height: auto;">
+                </td>
+                <td style="width: 25%; text-align: center;">
+                    <img src="img/img2.jpeg" style="max-width: 100%; height: auto;">
+                </td>
+                <td style="width: 25%; text-align: center;">
+                    <img src="img/img3.jpeg" style="max-width: 100%; height: auto;">
+                </td>
+                <td style="width: 25%; text-align: center;">
+                    <img src="img/img4.png" style="max-width: 100%; height: auto;">
+                </td>
+            </tr>
+        </table>
+        <footer style="background-color: rgb(0, 0, 0); padding: 10px; position: relative; bottom: 0; color: white;">
+            <p>&copy; 2024 Ahmad Faqih Hasani. All Rights Reserved.</p>
+            <p>Connect with me on:</p>
+            <a href="https://id.linkedin.com/in/ahmad-faqih-hasani-26924b27a" target="_blank">LinkedIn</a>
+            <a href="https://github.com/MozaaDev" target="_blank">GitHub</a>
+        </footer>
+    </body>
+</html>
